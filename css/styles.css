@@ -837,7 +837,7 @@ section {
 
 /* -------------MEDIA SCREEN------------- */
 
-/* Mobile version */
+/* Tablet version */
 @media screen and (min-width:768px) {
     .container {
         max-width: 768px;
@@ -915,6 +915,10 @@ section {
     .contacts-link:hover,
     .contacts-link:focus {
         color: #404BBF;
+    }
+
+    .mobile-menu {
+        display: none;
     }
 
     /* section title */
